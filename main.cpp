@@ -1,7 +1,7 @@
 #include <iostream>
 #include <assert.h>
 
-#include ""
+#include "colorcode_constants.h"
 #include "c_color_pair.h"
 
 void testNumberToPair(int pairNumber,
