@@ -10,12 +10,14 @@ namespace TelCoColorCoder
    MajorColor getMajor();
    MinorColor getMinor();
    std::string ToString();
-   ColorPair GetColorFromPairNumber(int pairNumber);
-   int GetPairNumberFromColor(MajorColor major, MinorColor minor)
    
  private:
    MajorColor majorColor;
    MinorColor minorColor;
   };  
+ 
+ ColorPair GetColorFromPairNumber(int pairNumber);
+ int GetPairNumberFromColor(MajorColor major, MinorColor minor)
+    
 } // end of namespace
 #endif
