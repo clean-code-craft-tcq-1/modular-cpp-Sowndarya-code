@@ -19,8 +19,7 @@ namespace TelCoColorCoder
    MinorColor minorColor;
   };  
  
- ColorPair GetColorFromPairNumber(int pairNumber);
- int GetPairNumberFromColor(MajorColor major, MinorColor minor);
+
     
 } // end of namespace
 #endif
