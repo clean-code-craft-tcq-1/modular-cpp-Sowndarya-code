@@ -7,9 +7,9 @@ namespace TelCoColorCoder
  {
  public:
    ColorPair(MajorColor major, MinorColor minor): majorColor(major), minorColor(minor) {}
-   MajorColor MajorColor getMajor();
-   MinorColor MinorColor getMinor();
-   std::string std::string ToString();
+   MajorColor getMajor();
+   MinorColor getMinor();
+   std::string ToString();
    ColorPair GetColorFromPairNumber(int pairNumber);
    int GetPairNumberFromColor(MajorColor major, MinorColor minor)
    
