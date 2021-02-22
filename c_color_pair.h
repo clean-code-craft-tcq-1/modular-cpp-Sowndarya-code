@@ -3,15 +3,19 @@
 
 namespace TelCoColorCoder
 {
- class ColorPair {
-        public:
-            ColorPair(MajorColor major, MinorColor minor): majorColor(major), minorColor(minor) {}
-            MajorColor MajorColor getMajor();
-            MinorColor MinorColor getMinor();
-            std::string std::string ToString();
-        private:
-            MajorColor majorColor;
-            MinorColor minorColor;
-         };  
+ class ColorPair 
+ {
+ public:
+   ColorPair(MajorColor major, MinorColor minor): majorColor(major), minorColor(minor) {}
+   MajorColor MajorColor getMajor();
+   MinorColor MinorColor getMinor();
+   std::string std::string ToString();
+   ColorPair GetColorFromPairNumber(int pairNumber);
+   int GetPairNumberFromColor(MajorColor major, MinorColor minor)
+   
+ private:
+   MajorColor majorColor;
+   MinorColor minorColor;
+  };  
 } // end of namespace
 #endif
