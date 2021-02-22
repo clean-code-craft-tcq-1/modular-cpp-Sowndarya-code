@@ -32,4 +32,4 @@ namespace TelCoColorCoder
   {
     return major * numberOfMinorColors + minor + 1;
   }
-}
+} // end of namespace TelCoColorCoder
