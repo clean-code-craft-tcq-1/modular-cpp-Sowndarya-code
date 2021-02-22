@@ -3,9 +3,7 @@
 
 
  class ColorPair {
-       private:
-            MajorColor majorColor;
-            MinorColor minorColor;
+
         public:
             ColorPair(MajorColor major, MinorColor minor):
                 majorColor(major), minorColor(minor)
@@ -22,5 +20,9 @@
                 colorPairStr += MinorColorNames[minorColor];
                 return colorPairStr;
             }
+        private:
+            MajorColor majorColor;
+            MinorColor minorColor;
+         }
       
 #endif
