@@ -2,7 +2,6 @@
 #define C_COLOR_PAIR_H__
 
 #include <string>
-#include "colorcode_constants.h"
 
 namespace TelCoColorCoder
 {
