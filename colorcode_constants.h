@@ -1,1 +1,4 @@
+#ifndef COLORCODE_CONSTANTS_H__
+#define COLORCODE_CONSTANTS_H__
 
+#endif
