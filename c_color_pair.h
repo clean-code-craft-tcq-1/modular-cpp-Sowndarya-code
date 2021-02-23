@@ -1,5 +1,5 @@
-#ifndef C_COLOR_PAIR_H__
-#define C_COLOR_PAIR_H__
+#ifndef C_COLOR_PAIR_H
+#define C_COLOR_PAIR_H
 
 #include <string>
 #include "constants.h"
