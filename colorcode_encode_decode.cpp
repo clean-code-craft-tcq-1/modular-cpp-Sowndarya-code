@@ -4,8 +4,8 @@ namespace TelCoColorCoder
 {
  //enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
  //enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
- int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
- int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
+ //int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
+ //int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
     
     ColorPair GetColorFromPairNumber(int pairNumber) 
     {
