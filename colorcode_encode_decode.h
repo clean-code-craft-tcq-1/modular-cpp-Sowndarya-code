@@ -1,6 +1,8 @@
 #ifndef COLORCODE_ENCODE_DECODE_H__
 #define COLORCODE_ENCODE_DECODE_H__
 
+#include "c_color_pair.h"
+
 namespace TelCoColorCoder
 {
     enum class MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
