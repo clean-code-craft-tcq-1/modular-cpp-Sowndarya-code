@@ -1,5 +1,5 @@
-#ifndef CONSTANTS_H
-#define CONSTANTS_H
+#ifndef CONSTANTS
+#define CONSTANTS
 namespace TelCoColorCoder
 {
     const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
