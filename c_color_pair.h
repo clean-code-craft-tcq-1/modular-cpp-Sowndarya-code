@@ -10,7 +10,7 @@ namespace TelCoColorCoder
     enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
  //extern enum MajorColor, MinorColor;
  //const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet" };
- //extern int numberOfMajorColors, numberOfMinorColors;
+ extern int numberOfMajorColors, numberOfMinorColors;
  //const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
       //int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
  //int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
