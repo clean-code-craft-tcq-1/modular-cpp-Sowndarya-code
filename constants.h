@@ -1,3 +1,5 @@
+#include <iostream>
+
 #ifndef CONSTANTS_H__
 #define CONSTANTS_H__
 namespace TelCoColorCoder
