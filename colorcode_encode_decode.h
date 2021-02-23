@@ -5,8 +5,8 @@
 
 namespace TelCoColorCoder
 {
-    enum class MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
-    enum class MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
+    enum class MajorColor : uint {WHITE, RED, BLACK, YELLOW, VIOLET};
+    enum class MinorColor : uint {BLUE, ORANGE, GREEN, BROWN, SLATE};
  //extern enum MajorColor, MinorColor;
  const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet" };
  extern int numberOfMajorColors, numberOfMinorColors;
