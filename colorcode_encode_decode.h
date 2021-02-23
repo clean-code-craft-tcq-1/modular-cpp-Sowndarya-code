@@ -1,5 +1,5 @@
-#ifndef COLORCODE_ENCODE_DECODE_H
-#define COLORCODE_ENCODE_DECODE_H
+#ifndef COLORCODE_ENCODE_DECODE
+#define COLORCODE_ENCODE_DECODE
 
 #include "c_color_pair.h"
 
