@@ -3,10 +3,11 @@
 
 namespace TelCoColorCoder
 {
-
- extern enum MajorColor, MinorColor;
+    enum class MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
+    enum class MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
+ //extern enum MajorColor, MinorColor;
  const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet" };
- extern int numberOfMajorColors, numberOfMinorColors;
+ //extern int numberOfMajorColors, numberOfMinorColors;
  const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
  
  ColorPair GetColorFromPairNumber(int pairNumber);
